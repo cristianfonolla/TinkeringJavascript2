@@ -6,6 +6,9 @@
  */
 
 require('./bootstrap');
+// require('./animal');
+// require('./Dog');
+// require('./Cat');
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
@@ -18,3 +21,45 @@ Vue.component('example', require('./components/Example.vue'));
 const app = new Vue({
     el: '#app'
 });
+
+var animales = require('./animal');
+
+var anim = new animales.animal();
+
+
+
+
+
+
+//
+// var dog = new Dog();
+// var cat = new Cat();
+//
+// cat.say();
+// dog.say();
+// cat.eat();
+// dog.eat();
+//
+//
+//
+//
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
